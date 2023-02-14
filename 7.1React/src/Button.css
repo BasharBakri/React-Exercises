@@ -1,0 +1,28 @@
+.blue {
+  padding: 0.5rem 1rem;
+  background-color: blue;
+  border-radius: 20px;
+  margin: 1rem;
+}
+
+.red {
+  padding: 0.5rem 1rem;
+  background-color: red;
+  border-radius: 20px;
+  margin: 1rem;
+}
+
+.yellow {
+  padding: 0.5rem 1rem;
+  background-color: yellow;
+  border-radius: 20px;
+  margin: 1rem;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+button:active {
+  background-color: white;
+}
