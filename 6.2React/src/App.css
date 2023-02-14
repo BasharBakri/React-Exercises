@@ -1,0 +1,25 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+}
+
+button {
+  margin: 0.5rem;
+}
+
+.show {
+  margin: 0.5rem;
+  background-color: orangered;
+  height: 80px;
+  width: 80px;
+}
