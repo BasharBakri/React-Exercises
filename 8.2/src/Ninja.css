@@ -1,0 +1,14 @@
+.ninjaCard {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: 2rem;
+  padding: 1rem;
+  border: 1px solid black;
+  align-items: center;
+  justify-content: center;
+}
+
+.ninjaCard img {
+  width: 200px;
+}

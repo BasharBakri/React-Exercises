@@ -22,8 +22,8 @@ function App() {
 
 
       {/* Why does the first button require one click but the second button needs two clicks I don't understand */}
-      <button onClick={() => { setNum((prevNum) => prevNum <= -10 ? prevNum : prevNum - 1) }} >Decrement</button>
-      {/* <button onClick={() => { setNum(num <= -10 ? num : num--) }} >Decrement</button> */}
+      {/* <button onClick={() => { setNum((prevNum) => prevNum <= -10 ? prevNum : prevNum - 1) }} >Decrement</button> */}
+      <button onClick={() => { setNum(num <= -10 ? num : --num) }} >Decrement</button>
       <section className={numClass()}>{num}</section>
     </div>
   )

@@ -5,23 +5,22 @@ import Button from "./Button";
 
 function App() {
   const colors = ["blue", "red", "yellow"];
+  const [text, setText] = useState('')
 
-  const btnClr = colors.map((color) => {
-    return <Button key={color} className={color} name={color} onClick={handleButtonClick} ></Button>
-  });
-  let [text, setText] = useState('');
+  // function HandleClick() { }
 
-  // I didn't fully understand how to add the click event to each button. some code was copied
-  function handleButtonClick(propName) {
-    setText(propName);
+
+  // const btns =
+
+  return <>{
+
+    colors.map((color) => {
+      return <Button key={color} classType={color} name={color} fnClick={setText}></Button>
+    })
+
   }
-  return (<>
-    <div>
-      {btnClr}
-    </div>
-    <h3>The color selected is: {text}</h3>
+    <h2>The color of this button is: {text}</h2>
   </>
-  )
 }
 
 export default App
