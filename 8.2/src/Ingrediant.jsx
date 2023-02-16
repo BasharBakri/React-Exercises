@@ -1,7 +1,7 @@
 import { data } from "./data"
 import './Ingrediant.css'
 // import Ninja from "./Ninja"
-import App from "./App"
+// import App from "./App"
 
 export default function Ingrediant(props) {
 
