@@ -1,0 +1,47 @@
+#root {
+  /* max-width: 1280px; */
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.box1 {
+  width: 100px;
+  height: 100px;
+  position: relative;
+}
+
+
+
+.animtion {
+
+  animation-name: example;
+  animation-duration: 3s;
+}
+
+@keyframes example {
+  20% {
+    background-color: yellow;
+  }
+
+  40% {
+    background-color: green;
+  }
+
+  60% {
+    background-color: blue;
+  }
+
+  80% {
+    background-color: brown;
+  }
+
+  100% {
+    background-color: black;
+  }
+}
+
+.round {
+  border-radius: 50%;
+  background-color: black;
+}
