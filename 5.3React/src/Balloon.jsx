@@ -3,6 +3,5 @@ export default function Balloon(props) {
 
 
 
-
-  return <div className={props.balColor} ></div>
+  return <div style={{ backgroundColor: props.balColor }} className='balloon' ></div >
 }

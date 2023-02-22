@@ -11,14 +11,14 @@ function App() {
     { name: 'Alon', color: 'purple' },
   ]
 
-  const kidInfo = kids.map((kid) => {
+  const kidInfo = () => kids.map((kid) => {
     return <Child name={kid.name} color={kid.color} />
   })
 
   return (<div className='grandContainer'>
     <h1>A tale of five balloons</h1>
     <div className='container'>
-      {kidInfo}
+      {kidInfo()}
     </div>
   </div>)
 
